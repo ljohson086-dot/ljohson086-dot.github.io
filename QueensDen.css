@@ -4,17 +4,20 @@ body{
 background:url('https://cdn.corenexis.com/f/mnd7jRMpm3i.png') center center fixed;
 background-size:cover;
 font-family:'Comic Neue', cursive;
-color:#ffffff;
+color:#FFFFFF;
 }
 
 /* Main Container */
 .container.main{
-background:rgba(0,0,0,.85);
-border:2px solid #D4AF37;
-box-shadow:0 0 15px #D4AF37;
+background:#000000 !important;
+border:3px solid #D4AF37 !important;
 border-radius:15px;
+box-shadow:
+0 0 10px #D4AF37,
+0 0 20px #D4AF37;
 }
 
+/* Main Area */
 .col-md-9{
 background:none;
 }
@@ -30,12 +33,13 @@ color:#D4AF37 !important;
 }
 
 .topbar a:hover{
-color:#ffffff !important;
+color:#D4AF37 !important;
+text-shadow:0 0 10px #D4AF37;
 }
 
 /* Navigation */
 .navbar{
-background:#111111 !important;
+background:#000000 !important;
 border-bottom:2px solid #D4AF37 !important;
 }
 
@@ -51,128 +55,139 @@ color:#000000 !important;
 
 /* Breadcrumb */
 .breadcrumb{
-background:#111111;
+background:#000000 !important;
 border:1px solid #D4AF37;
 }
 
 .breadcrumb .active{
-color:#ffffff;
+color:#FFFFFF;
 }
 
-/* Feature Boxes */
-.feature{
-background:rgba(0,0,0,.7) !important;
-border:1px solid #D4AF37 !important;
-}
-
-/* Pride/Event Boxes */
-div.left{
-background:rgba(0,0,0,.7) !important;
-border:1px solid #D4AF37 !important;
+/* Panels and Boxes */
+.panel,
+.feature,
+.table,
+.boxcontainer,
+.alert{
+background:#000000 !important;
+border:2px solid #D4AF37 !important;
+box-shadow:
+0 0 5px #D4AF37,
+0 0 15px #D4AF37;
 }
 
 /* Sidebar */
-.panel{
-background:rgba(0,0,0,.7) !important;
-border:1px solid #D4AF37 !important;
-box-shadow:none !important;
+div.left{
+background:#000000 !important;
+border:2px solid #D4AF37 !important;
 }
 
-/* Progress Bars */
+/* Progress Bar */
 .progress{
-background:#222222;
+background:#000000 !important;
 }
 
 .progress-bar{
-background:#D4AF37;
-color:#000000;
+background:#D4AF37 !important;
+color:#000000 !important;
 font-weight:bold;
 }
 
-/* Sidebar Chat */
+/* Chat */
 .chat_light{
-background:#f5f5f5;
-color:#000000;
-border:1px solid #D4AF37;
+background:#000000 !important;
+color:#FFFFFF !important;
+border:1px solid #D4AF37 !important;
 }
 
 .chat_dark{
-background:#D4AF37;
-color:#000000;
+background:#D4AF37 !important;
+color:#000000 !important;
 }
 
 /* Headings */
 h1{
 color:#D4AF37 !important;
-font-size:42px;
+font-size:70px;
+font-weight:700;
 text-align:center;
-text-shadow:0 0 8px #000;
+letter-spacing:5px;
+text-transform:uppercase;
+
+text-shadow:
+0 0 5px #D4AF37,
+0 0 10px #D4AF37,
+0 0 20px #D4AF37,
+0 0 30px #000000;
 }
 
-h2,h3,h4,h5{
+h2,
+h3,
+h4,
+h5{
 color:#D4AF37 !important;
+text-transform:uppercase;
+letter-spacing:2px;
+text-align:center;
 }
 
-/* General Tables */
+/* Tables */
 .table{
-background:rgba(0,0,0,.65);
-border:1px solid #D4AF37;
+color:#FFFFFF !important;
 }
 
-/* Table Headers */
 .top,
 .bottom,
 .table .left{
 background:#D4AF37 !important;
 color:#000000 !important;
+font-weight:bold;
 }
 
-/* Inner Table Areas */
+/* Inner Tables */
 .inner-table .left{
-background:#222222 !important;
-color:#ffffff !important;
+background:#000000 !important;
+color:#FFFFFF !important;
 }
 
 .inner-table .right{
-background:#111111 !important;
+background:#000000 !important;
+color:#FFFFFF !important;
 }
 
-/* Alternating Rows */
 .right_odd{
-background:#1a1a1a !important;
+background:#000000 !important;
 }
 
 .right_cub{
-background:#2d2d2d !important;
+background:#000000 !important;
 }
 
-/* Cave & Beetle Mounds */
+/* Cave & Beetle Book Sections */
 .cave-grid,
 .mound-grid{
-background:rgba(0,0,0,.7);
-border:1px solid #D4AF37;
+background:#000000 !important;
+border:1px solid #D4AF37 !important;
 }
 
 /* Alerts */
 .alert{
-background:#111111;
-border:1px solid #D4AF37;
-color:#ffffff;
+color:#FFFFFF !important;
 }
 
 .alert-warning,
 .alert-danger{
-background:#D4AF37;
-color:#000000;
+background:#D4AF37 !important;
+color:#000000 !important;
 }
 
 /* Forms */
 input,
 select,
 textarea{
-background:#111111 !important;
+background:#000000 !important;
 border:1px solid #D4AF37 !important;
-color:#ffffff !important;
+color:#FFFFFF !important;
 box-shadow:none !important;
 }
 
@@ -184,60 +199,21 @@ background:#D4AF37 !important;
 color:#000000 !important;
 border:none !important;
 font-weight:bold;
+font-family:'Comic Neue', cursive;
 }
 
 input[type=submit]:hover,
 input[type=button]:hover,
 .btn:hover{
-background:#ffffff !important;
+background:#D4AF37 !important;
 color:#000000 !important;
+box-shadow:
+0 0 5px #D4AF37,
+0 0 15px #D4AF37,
+0 0 25px #D4AF37;
 }
 
 /* Links */
 a:link,
 a:visited{
-color:#D4AF37 !important;
-}
-
-a:hover{
-color:#ffffff !important;
-}
-
-/* Den Cards */
-.boxcontainer{
-background:rgba(0,0,0,.75);
-border:1px solid #D4AF37;
-border-radius:10px;
-}
-
-/* Kings */
-.featured-lion,
-.featured-lion img{
-border:2px solid #D4AF37;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar{
-width:10px;
-}
-
-::-webkit-scrollbar-track{
-background:#000000;
-}
-
-::-webkit-scrollbar-thumb{
-background:#D4AF37;
-}
-/* Headings */
-h1{
-color:#D4AF37 !important;
-fo*t-size:42px;
-text-align:center;
-te*t-shadow:0 0 8px #000;
-letter-spac*ng:3px;
-text-transform*uppercase;
-}
-
-h2,h3,h4,h5{
-color:#*4AF37 !important;
-}
+color:#D4AF37 !important
