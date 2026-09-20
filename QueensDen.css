@@ -1,259 +1,623 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
-
+2
+ 
+3
 body{
+4
 background:url('https://cdn.corenexis.com/f/mnd7jRMpm3i.png') center center fixed;
+5
 background-size:cover;
+6
 font-family:'Comic Neue', cursive;
+7
 color:#FFFFFF;
+8
 }
-
+9
+ 
+10
 /* Main Container */
+11
 .container.main{
+12
 background:#000000 !important;
+13
 border:3px solid #D4AF37 !important;
+14
 border-radius:15px;
+15
 box-shadow:0 0 10px #D4AF37;
+16
 }
-
+17
+ 
+18
 /* Main Content */
+19
 .col-md-9{
+20
 background:none !important;
+21
 }
-
+22
+ 
+23
 /* Top Bar */
+24
 .topbar{
+25
 background:#000000 !important;
+26
 border-bottom:2px solid #D4AF37 !important;
+27
 }
-
+28
+ 
+29
 .topbar a{
+30
 color:#D4AF37 !important;
+31
 }
-
+32
+ 
+33
 /* Navigation */
+34
 .navbar,
+35
 .navbar-default{
+36
 background:#000000 !important;
+37
 border-bottom:2px solid #D4AF37 !important;
+38
 }
-
+39
+ 
+40
 .navbar li a{
+41
 color:#D4AF37 !important;
+42
 font-weight:bold;
+43
 }
-
+44
+ 
+45
 .navbar li a:hover{
+46
 background:#D4AF37 !important;
+47
 color:#000000 !important;
+48
 }
-
+49
+ 
+50
 /* Breadcrumb */
+51
 .breadcrumb{
+52
 background:#000000 !important;
+53
 border:1px solid #D4AF37 !important;
+54
 }
-
+55
+ 
+56
 .breadcrumb .active{
+57
 color:#FFFFFF !important;
+58
 }
-
+59
+ 
+60
 /* Panels */
+61
 .panel,
+62
 .feature,
+63
 .boxcontainer,
+64
 .alert,
+65
 .table{
+66
 background:#000000 !important;
+67
 border:2px solid #D4AF37 !important;
+68
 color:#FFFFFF !important;
+69
 }
-
+70
+ 
+71
 /* Sidebar */
+72
 div.left{
+73
 background:#000000 !important;
+74
 border:2px solid #D4AF37 !important;
+75
 }
-
+76
+ 
+77
 /* Featured Lion Area */
+78
 .featured-lion,
+79
 .featured-lion div{
+80
 background:#000000 !important;
+81
 border-color:#D4AF37 !important;
+82
 }
-
+83
+ 
+84
 /* Progress Bars */
+85
 .progress{
+86
 background:#000000 !important;
+87
 }
-
+88
+ 
+89
 .progress-bar{
+90
 background:#D4AF37 !important;
+91
 color:#000000 !important;
+92
 font-weight:bold;
+93
 }
-
+94
+ 
+95
 /* Chat */
+96
 .chat_light{
+97
 background:#000000 !important;
+98
 color:#FFFFFF !important;
+99
 border:1px solid #D4AF37 !important;
+100
 }
-
+101
+ 
+102
 .chat_dark{
+103
 background:#D4AF37 !important;
+104
 color:#000000 !important;
+105
 }
-
+106
+ 
+107
 /* Main Header */
+108
 h1{
+109
 color:#D4AF37 !important;
+110
 font-size:40px;
+111
 font-weight:bold;
+112
 text-align:center;
+113
 letter-spacing:2px;
+114
 text-transform:uppercase;
-
+115
 text-shadow:
+116
 0 0 2px #D4AF37,
+117
 0 0 5px #D4AF37,
+118
 0 0 10px #D4AF37;
+119
 }
-
+120
+ 
+121
 /* Sub Headers */
+122
 h2,
+123
 h3,
+124
 h4,
+125
 h5{
+126
 color:#D4AF37 !important;
+127
 font-size:24px;
+128
 text-transform:uppercase;
+129
 letter-spacing:1px;
+130
 text-align:center;
+131
 }
-
+132
+ 
+133
 /* Paragraphs */
+134
 p{
+135
 color:#FFFFFF !important;
+136
 font-size:16px;
+137
 line-height:1.5;
+138
 text-align:center;
+139
 }
-
+140
+ 
+141
 /* Tables */
+142
 .table{
+143
+background:#000000 !important;
+144
 color:#FFFFFF !important;
+145
 }
-
+146
+ 
+147
 .top,
-.bottom,
-.table .left{
+148
+.bottom{
+149
 background:#D4AF37 !important;
+150
 color:#000000 !important;
+151
 font-weight:bold;
+152
 }
-
+153
+ 
+154
 .inner-table .left,
+155
 .inner-table .right{
+156
 background:#000000 !important;
+157
 color:#FFFFFF !important;
+158
 }
-
+159
+ 
+160
 .right_odd,
+161
 .right_cub{
+162
 background:#000000 !important;
+163
 }
-
+164
+ 
+165
 /* Cave & Beetle Areas */
+166
 .cave-grid,
+167
 .mound-grid{
+168
 background:#000000 !important;
+169
 border:1px solid #D4AF37 !important;
+170
 }
-
+171
+ 
+172
 /* Alerts */
+173
 .alert-warning,
+174
 .alert-danger{
+175
 background:#D4AF37 !important;
+176
 color:#000000 !important;
+177
 }
-
+178
+ 
+179
 /* Forms */
+180
 input,
+181
 select,
+182
 textarea{
+183
 background:#000000 !important;
+184
 border:1px solid #D4AF37 !important;
+185
 color:#FFFFFF !important;
+186
 }
-
+187
+ 
+188
 /* Buttons */
-input[type=submit],
-input[type=button],
-.btn{
-background:#D4AF37 !important;
-color:#000000 !important;
-font-weight:bold;
-border:none !important;
-}
-
-input[type=submit]:hover,
-input[type=button]:hover,
-.btn:hover{
-background:#D4AF37 !important;
-color:#000000 !important;
-box-shadow:0 0 15px #D4AF37;
-}
-
-/* Links */
-a:link,
-a:visited{
-color:#D4AF37 !important;
-}
-
-a:hover{
-color:#FFD700 !important;
-text-shadow:0 0 10px #D4AF37;
-}
-
-/* Featured King */
-.featured-lion img{
-border:2px solid #D4AF37 !important;
-}
-
-/* Remove Remaining Green/Grey */
-.panel-heading,
-.panel-footer,
-.bg-warning,
-.bg-info,
-.bg-success,
-.bg-danger,
-.sidebar,
-.table-responsive,
-.table-bordered,
-.table-hover,
-.table-striped>tbody>tr,
-.table-striped>tbody>tr:nth-child(odd),
-.table-striped>tbody>tr:nth-child(even){
+189
+input[type="submit"],
+190
+input[type="button"],
+191
+.btn,
+192
+button{
+193
 background:#000000 !important;
+194
+color:#D4AF37 !important;
+195
+font-weight:bold;
+196
+border:1px solid #D4AF37 !important;
+197
+}
+198
+ 
+199
+input[type="submit"]:hover,
+200
+input[type="button"]:hover,
+201
+.btn:hover,
+202
+button:hover{
+203
+background:#111111 !important;
+204
+color:#FFD700 !important;
+205
+box-shadow:0 0 15px #D4AF37;
+206
+}
+207
+ 
+208
+/* Links */
+209
+a:link,
+210
+a:visited{
+211
+color:#D4AF37 !important;
+212
+}
+213
+ 
+214
+a:hover{
+215
+color:#FFD700 !important;
+216
+text-shadow:0 0 10px #D4AF37;
+217
+}
+218
+ 
+219
+/* Featured King */
+220
+.featured-lion img{
+221
+border:2px solid #D4AF37 !important;
+222
+}
+223
+ 
+224
+/* Remove Remaining Green/Grey */
+225
+.panel-heading,
+226
+.panel-footer,
+227
+.bg-warning,
+228
+.bg-info,
+229
+.bg-success,
+230
+.bg-danger,
+231
+.sidebar,
+232
+.table-responsive,
+233
+.table-bordered,
+234
+.table-hover,
+235
+.table-striped > tbody > tr,
+236
+.table-striped > tbody > tr:nth-child(odd),
+237
+.table-striped > tbody > tr:nth-child(even){
+238
+background:#000000 !important;
+239
 color:#FFFFFF !important;
+240
 border-color:#D4AF37 !important;
+241
 }
-
+242
+ 
+243
+/* Force Cave Settings and Overview Headers Black */
+244
+.panel-heading,
+245
+.table-header,
+246
+.box-header,
+247
+.feature-header,
+248
+.cave-header,
+249
+.content-header,
+250
+.navbar-header,
+251
+.card-header,
+252
+.ui-widget-header{
+253
+background:#000000 !important;
+254
+color:#D4AF37 !important;
+255
+border-color:#D4AF37 !important;
+256
+}
+257
+ 
+258
+/* Force Table Headers Black */
+259
+.table .top,
+260
+.table th,
+261
+.table thead,
+262
+th,
+263
+thead tr,
+264
+.table-bordered > thead > tr > th,
+265
+.table-bordered > tbody > tr > th{
+266
+background:#000000 !important;
+267
+color:#D4AF37 !important;
+268
+border-color:#D4AF37 !important;
+269
+}
+270
+ 
+271
+/* Force Left/Right Header Cells Black */
+272
+.table .left,
+273
+.table .right,
+274
+td.left,
+275
+td.right,
+276
+th.left,
+277
+th.right{
+278
+background:#000000 !important;
+279
+color:#FFFFFF !important;
+280
+border-color:#D4AF37 !important;
+281
+}
+282
+ 
+283
+/* Extra Aggressive Overrides */
+284
+.center,
+285
+.feature,
+286
+.boxcontainer,
+287
+.inner-table,
+288
+.table-responsive,
+289
+.table-bordered,
+290
+.table-hover{
+291
+background:#000000 !important;
+292
+border-color:#D4AF37 !important;
+293
+}
+294
+ 
+295
 /* Force Gold Borders */
+296
 *{
+297
 border-color:#D4AF37 !important;
+298
 }
-
+299
+ 
+300
 /* Scrollbar */
+301
 ::-webkit-scrollbar{
+302
 width:10px;
+303
 }
-
+304
+ 
+305
 ::-webkit-scrollbar-track{
+306
 background:#000000;
+307
 }
-
+308
+ 
+309
 ::-webkit-scrollbar-thumb{
+310
 background:#D4AF37;
+311
 border-radius:10px;
+312
 }
