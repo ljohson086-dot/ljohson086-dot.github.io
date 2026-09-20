@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body{
+background:url('https://cdn.corenexis.com/f/mnd7jRMpm3i.png') center center fixed;
+background-size:cover;
+font-family:'Comic Neue', cursive;
+color:#ffffff;
+}
+
+/* Main Container */
+.container.main{
+background:rgba(0,0,0,.85);
+border:2px solid #D4AF37;
+box-shadow:0 0 15px #D4AF37;
+border-radius:15px;
+}
+
+.col-md-9{
+background:none;
+}
+
+/* Top Bar */
+.topbar{
+background:#000000;
+border-bottom:2px solid #D4AF37;
+}
+
+.topbar a{
+color:#D4AF37 !important;
+}
+
+.topbar a:hover{
+color:#ffffff !important;
+}
+
+/* Navigation */
+.navbar{
+background:#111111 !important;
+border-bottom:2px solid #D4AF37 !important;
+}
+
+.navbar li a{
+color:#D4AF37 !important;
+font-weight:bold;
+}
+
+.navbar li a:hover{
+background:#D4AF37 !important;
+color:#000000 !important;
+}
+
+/* Breadcrumb */
+.breadcrumb{
+background:#111111;
+border:1px solid #D4AF37;
+}
+
+.breadcrumb .active{
+color:#ffffff;
+}
+
+/* Feature Boxes */
+.feature{
+background:rgba(0,0,0,.7) !important;
+border:1px solid #D4AF37 !important;
+}
+
+/* Pride/Event Boxes */
+div.left{
+background:rgba(0,0,0,.7) !important;
+border:1px solid #D4AF37 !important;
+}
+
+/* Sidebar */
+.panel{
+background:rgba(0,0,0,.7) !important;
+border:1px solid #D4AF37 !important;
+box-shadow:none !important;
+}
+
+/* Progress Bars */
+.progress{
+background:#222222;
+}
+
+.progress-bar{
+background:#D4AF37;
+color:#000000;
+font-weight:bold;
+}
+
+/* Sidebar Chat */
+.chat_light{
+background:#f5f5f5;
+color:#000000;
+border:1px solid #D4AF37;
+}
+
+.chat_dark{
+background:#D4AF37;
+color:#000000;
+}
+
+/* Headings */
+h1{
+color:#D4AF37 !important;
+font-size:42px;
+text-align:center;
+text-shadow:0 0 8px #000;
+}
+
+h2,h3,h4,h5{
+color:#D4AF37 !important;
+}
+
+/* General Tables */
+.table{
+background:rgba(0,0,0,.65);
+border:1px solid #D4AF37;
+}
+
+/* Table Headers */
+.top,
+.bottom,
+.table .left{
+background:#D4AF37 !important;
+color:#000000 !important;
+}
+
+/* Inner Table Areas */
+.inner-table .left{
+background:#222222 !important;
+color:#ffffff !important;
+}
+
+.inner-table .right{
+background:#111111 !important;
+}
+
+/* Alternating Rows */
+.right_odd{
+background:#1a1a1a !important;
+}
+
+.right_cub{
+background:#2d2d2d !important;
+}
+
+/* Cave & Beetle Mounds */
+.cave-grid,
+.mound-grid{
+background:rgba(0,0,0,.7);
+border:1px solid #D4AF37;
+}
+
+/* Alerts */
+.alert{
+background:#111111;
+border:1px solid #D4AF37;
+color:#ffffff;
+}
+
+.alert-warning,
+.alert-danger{
+background:#D4AF37;
+color:#000000;
+}
+
+/* Forms */
+input,
+select,
+textarea{
+background:#111111 !important;
+border:1px solid #D4AF37 !important;
+color:#ffffff !important;
+box-shadow:none !important;
+}
+
+/* Buttons */
+input[type=submit],
+input[type=button],
+.btn{
+background:#D4AF37 !important;
+color:#000000 !important;
+border:none !important;
+font-weight:bold;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover,
+.btn:hover{
+background:#ffffff !important;
+color:#000000 !important;
+}
+
+/* Links */
+a:link,
+a:visited{
+color:#D4AF37 !important;
+}
+
+a:hover{
+color:#ffffff !important;
+}
+
+/* Den Cards */
+.boxcontainer{
+background:rgba(0,0,0,.75);
+border:1px solid #D4AF37;
+border-radius:10px;
+}
+
+/* Kings */
+.featured-lion,
+.featured-lion img{
+border:2px solid #D4AF37;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#000000;
+}
+
+::-webkit-scrollbar-thumb{
+background:#D4AF37;
+}
+/* Headings */
+h1{
+color:#D4AF37 !important;
+fo*t-size:42px;
+text-align:center;
+te*t-shadow:0 0 8px #000;
+letter-spac*ng:3px;
+text-transform*uppercase;
+}
+
+h2,h3,h4,h5{
+color:#*4AF37 !important;
+}
