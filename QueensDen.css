@@ -12,33 +12,27 @@ color:#FFFFFF;
 background:#000000 !important;
 border:3px solid #D4AF37 !important;
 border-radius:15px;
-box-shadow:
-0 0 10px #D4AF37,
-0 0 20px #D4AF37;
+box-shadow:0 0 10px #D4AF37;
 }
 
-/* Main Area */
+/* Main Content */
 .col-md-9{
-background:none;
+background:none !important;
 }
 
 /* Top Bar */
 .topbar{
-background:#000000;
-border-bottom:2px solid #D4AF37;
+background:#000000 !important;
+border-bottom:2px solid #D4AF37 !important;
 }
 
 .topbar a{
 color:#D4AF37 !important;
 }
 
-.topbar a:hover{
-color:#D4AF37 !important;
-text-shadow:0 0 10px #D4AF37;
-}
-
 /* Navigation */
-.navbar{
+.navbar,
+.navbar-default{
 background:#000000 !important;
 border-bottom:2px solid #D4AF37 !important;
 }
@@ -56,24 +50,22 @@ color:#000000 !important;
 /* Breadcrumb */
 .breadcrumb{
 background:#000000 !important;
-border:1px solid #D4AF37;
+border:1px solid #D4AF37 !important;
 }
 
 .breadcrumb .active{
-color:#FFFFFF;
+color:#FFFFFF !important;
 }
 
-/* Panels and Boxes */
+/* Panels */
 .panel,
 .feature,
-.table,
 .boxcontainer,
-.alert{
+.alert,
+.table{
 background:#000000 !important;
 border:2px solid #D4AF37 !important;
-box-shadow:
-0 0 5px #D4AF37,
-0 0 15px #D4AF37;
+color:#FFFFFF !important;
 }
 
 /* Sidebar */
@@ -82,7 +74,14 @@ background:#000000 !important;
 border:2px solid #D4AF37 !important;
 }
 
-/* Progress Bar */
+/* Featured Lion Area */
+.featured-lion,
+.featured-lion div{
+background:#000000 !important;
+border-color:#D4AF37 !important;
+}
+
+/* Progress Bars */
 .progress{
 background:#000000 !important;
 }
@@ -105,29 +104,38 @@ background:#D4AF37 !important;
 color:#000000 !important;
 }
 
-/* Headings */
+/* Main Header */
 h1{
 color:#D4AF37 !important;
-font-size:70px;
-font-weight:700;
+font-size:40px;
+font-weight:bold;
 text-align:center;
-letter-spacing:5px;
+letter-spacing:2px;
 text-transform:uppercase;
 
 text-shadow:
+0 0 2px #D4AF37,
 0 0 5px #D4AF37,
-0 0 10px #D4AF37,
-0 0 20px #D4AF37,
-0 0 30px #000000;
+0 0 10px #D4AF37;
 }
 
+/* Sub Headers */
 h2,
 h3,
 h4,
 h5{
 color:#D4AF37 !important;
+font-size:24px;
 text-transform:uppercase;
-letter-spacing:2px;
+letter-spacing:1px;
+text-align:center;
+}
+
+/* Paragraphs */
+p{
+color:#FFFFFF !important;
+font-size:16px;
+line-height:1.5;
 text-align:center;
 }
 
@@ -144,26 +152,18 @@ color:#000000 !important;
 font-weight:bold;
 }
 
-/* Inner Tables */
-.inner-table .left{
-background:#000000 !important;
-color:#FFFFFF !important;
-}
-
+.inner-table .left,
 .inner-table .right{
 background:#000000 !important;
 color:#FFFFFF !important;
 }
 
-.right_odd{
-background:#000000 !important;
-}
-
+.right_odd,
 .right_cub{
 background:#000000 !important;
 }
 
-/* Cave & Beetle Book Sections */
+/* Cave & Beetle Areas */
 .cave-grid,
 .mound-grid{
 background:#000000 !important;
@@ -171,10 +171,6 @@ border:1px solid #D4AF37 !important;
 }
 
 /* Alerts */
-.alert{
-color:#FFFFFF !important;
-}
-
 .alert-warning,
 .alert-danger{
 background:#D4AF37 !important;
@@ -188,7 +184,6 @@ textarea{
 background:#000000 !important;
 border:1px solid #D4AF37 !important;
 color:#FFFFFF !important;
-box-shadow:none !important;
 }
 
 /* Buttons */
@@ -197,9 +192,8 @@ input[type=button],
 .btn{
 background:#D4AF37 !important;
 color:#000000 !important;
-border:none !important;
 font-weight:bold;
-font-family:'Comic Neue', cursive;
+border:none !important;
 }
 
 input[type=submit]:hover,
@@ -207,13 +201,59 @@ input[type=button]:hover,
 .btn:hover{
 background:#D4AF37 !important;
 color:#000000 !important;
-box-shadow:
-0 0 5px #D4AF37,
-0 0 15px #D4AF37,
-0 0 25px #D4AF37;
+box-shadow:0 0 15px #D4AF37;
 }
 
 /* Links */
 a:link,
 a:visited{
-color:#D4AF37 !important
+color:#D4AF37 !important;
+}
+
+a:hover{
+color:#FFD700 !important;
+text-shadow:0 0 10px #D4AF37;
+}
+
+/* Featured King */
+.featured-lion img{
+border:2px solid #D4AF37 !important;
+}
+
+/* Remove Remaining Green/Grey */
+.panel-heading,
+.panel-footer,
+.bg-warning,
+.bg-info,
+.bg-success,
+.bg-danger,
+.sidebar,
+.table-responsive,
+.table-bordered,
+.table-hover,
+.table-striped>tbody>tr,
+.table-striped>tbody>tr:nth-child(odd),
+.table-striped>tbody>tr:nth-child(even){
+background:#000000 !important;
+color:#FFFFFF !important;
+border-color:#D4AF37 !important;
+}
+
+/* Force Gold Borders */
+*{
+border-color:#D4AF37 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#000000;
+}
+
+::-webkit-scrollbar-thumb{
+background:#D4AF37;
+border-radius:10px;
+}
